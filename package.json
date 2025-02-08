@@ -1,0 +1,28 @@
+{
+  "name": "wedding-hadi-yuli",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "animejs": "^3.2.2",
+    "disqus-react": "^1.1.5",
+    "gsap": "^3.12.7",
+    "next": "15.1.6",
+    "prisma": "^6.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "swiper": "^11.2.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.6",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
