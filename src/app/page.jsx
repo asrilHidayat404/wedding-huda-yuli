@@ -6,7 +6,7 @@ import Hero from "@/components/Hero";
 import Information from "@/components/Information";
 import Intro from "@/components/Intro";
 import Play from "@/components/Play";
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 
 export default function Home() {
   const [isOpened, setIsOpened] = useState(true);
@@ -30,7 +30,9 @@ export default function Home() {
 
   return (
     <div className={`relative`}>
-      <Intro open={isOpened} setOpen={handleOpen} />
+       <Suspense fallback={<div>Loading...</div>}>
+          <Intro open={isOpened} setOpen={handleOpen} />
+      </Suspense>
 
       <Hero />
       <Play isPlay={isPlay} setIsPlay={setIsPlay} />
