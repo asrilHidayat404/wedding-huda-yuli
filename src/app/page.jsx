@@ -30,7 +30,7 @@ export default function Home() {
 
   return (
     <div className={`relative`}>
-       <Suspense fallback={<div className={`w-screen h-screen justify-center items-center z-30 flex ${open ? '-translate-y-0' : 'transform -translate-y-[80rem] transition-transform duration-1000 ease-linear'} fixed`}>Loading...</div>}>
+       <Suspense fallback={<div className={`w-screen h-screen justify-center items-center z-30 flex ${open ? '-translate-y-0' : 'transform -translate-y-[80rem] transition-transform duration-1000 ease-linear'} fixed bg-black text-white`}>Loading...</div>}>
           <Intro open={isOpened} setOpen={handleOpen} />
       </Suspense>
 
