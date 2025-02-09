@@ -99,14 +99,14 @@ function Gallery() {
         <div className="w-24 h-1 bg-gray-400"></div>
       </div>
       <div className="flex justify-center items-center space-x-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4" ref={interactivePic}>
+        <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 place-items-center lg:grid-cols-4 gap-4" ref={interactivePic}>
           {imgGallery.map((img, i) => (
-            <div className="bg-gray-700 p-2 rounded-lg overflow-hidden" key={i}>
+            <div className="bg-gray-700 p-1 rounded-lg overflow-hidden" key={i}>
               <img
               data-aos="flip-up"
                 alt="A traditional wedding scene with a couple and decorative elements"
-                className="gallery-item w-full h-96 object-cover rounded-lg"
-                height="384"
+                className="gallery-item object-cover rounded-lg"
+                // height="384"
                 src={`/img/${img}`}
                 width="256"
                 onMouseEnter={handleHover}
