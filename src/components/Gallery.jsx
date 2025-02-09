@@ -83,11 +83,11 @@ function Gallery() {
       <div className="flex justify-center items-center p-2">
         <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4" ref={interactivePic}>
           {imgGallery.map((img, i) => (
-            <div className="bg-gray-700 p-1 rounded-lg overflow-hidden" key={i}>
+            <div className="bg-gray-700 gallery-item p-1 rounded-lg overflow-hidden" key={i}>
               <img
               data-aos="flip-up"
                 alt="A traditional wedding scene with a couple and decorative elements"
-                className="gallery-item object-cover rounded-lg"
+                className=" object-cover rounded-lg"
                 // height="384"
                 src={`/img/${img}`}
                 width="256"
