@@ -101,7 +101,7 @@ export default function Home() {
           jika memberi adalah ungkapan tanda kasih, Anda dapat memberi kado
           secara cashless.
         </p>
-        <div className="bg-white text-gray-800 rounded-lg shadow-lg p-6 mb-4 w-full max-w-md">
+        <div className="bg-white text-gray-800 grid place-items-center rounded-lg shadow-lg p-6 mb-4 w-full max-w-md">
           <div className="flex items-center justify-between mb-4">
             <img
               alt="DANA Logo"
@@ -114,7 +114,7 @@ export default function Home() {
           <p className="text-xl font-semibold mb-2">+62 878-8375-7280</p>
           <p>Huda &amp; Yuli</p>
         </div>
-        <div className="bg-white text-gray-800 rounded-lg shadow-lg p-6 w-full max-w-md">
+        <div className="bg-white text-gray-800 rounded-lg shadow-lg p-6 w-full max-w-md grid place-items-center">
           <div className="flex items-center justify-center mb-4">
             <i className="fas fa-gift text-2xl"></i>
           </div>

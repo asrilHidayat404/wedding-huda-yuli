@@ -35,10 +35,10 @@ function Gallery() {
                 y: 50,
                 opacity: 0,
                 stagger: 0.5,
-                duration: 1,
+                duration: 0.5,
                 scrollTrigger: {
                     trigger: interactivePic.current,
-                    start: "top 80%",
+                    start: "top 60%",
                     end: "bottom 50%",
                     toggleActions: "play none none reverse",
                     scrub: true
@@ -71,24 +71,6 @@ function Gallery() {
         });
     };
 
-     // Komponen Gambar Galeri
-    //  const Pictures = ({ i }) => {
-    //     const randomImages = [];
-    //     for (let j = 0; j < i; j++) {
-    //         randomImages.push(
-    //             <img
-    //                 data-aos="flip-up"
-    //                 key={i}
-    //                 src={`https://picsum.photos/1200/700?random=${j}`}
-    //                 alt=""
-    //                 className="gallery-item lg:w-1/5 md:w-1/4 sm:w-1/3 w-auto rounded-md"
-    //                 onMouseEnter={handleHover}
-    //                 onMouseLeave={handleHoverOut}
-    //             />
-    //         );
-    //     }
-    //     return randomImages
-    // };
 
   return (
     <div className="container mx-auto py-12"  ref={galleryContainer}>
@@ -98,8 +80,8 @@ function Gallery() {
       <div className="flex justify-center mb-8">
         <div className="w-24 h-1 bg-gray-400"></div>
       </div>
-      <div className="flex justify-center items-center space-x-4">
-        <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 place-items-center lg:grid-cols-4 gap-4" ref={interactivePic}>
+      <div className="flex justify-center items-center p-2">
+        <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4" ref={interactivePic}>
           {imgGallery.map((img, i) => (
             <div className="bg-gray-700 p-1 rounded-lg overflow-hidden" key={i}>
               <img

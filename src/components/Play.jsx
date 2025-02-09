@@ -7,7 +7,7 @@ const Play = ({ isPlay, setIsPlay }) => {
 
   useEffect(() => {
     if (!audioRef.current) {
-      audioRef.current = new Audio("/audio.mpeg");
+      audioRef.current = new Audio("/lagu.mp3");
     }
 
     if (isPlay) {
