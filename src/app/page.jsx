@@ -73,10 +73,10 @@ export default function Home() {
       {/*  */}
       
 
-      <div className="relative">
+      <div className="relative bg-gray-900 text-gray-200">
         <img
           alt="Wedding couple in traditional attire"
-          className="w-full h-screen object-cover opacity-50"
+          className="w-full h-screen object-cover opacity-30"
           height="1080"
           src="/img3.jpeg"
           width="1920"
@@ -92,7 +92,7 @@ export default function Home() {
           <p className="text-sm md:text-base lg:text-lg mb-8">
             Kami yang berbahagia
           </p>
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-8 tangerine-bold">
+          <h1 className="text-[50px] md:text-5xl lg:text-6xl font-bold mb-8 tangerine-bold">
             Huda &amp; Yuli
           </h1>
           <div className="translate-y-[10rem] text-sm">

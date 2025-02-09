@@ -20,7 +20,7 @@ const Greeting = () => {
           Dengan memohon Rahmat dan Ridho Allah SWT, Kami bermaksud mengundang
           Bapak/Ibu/Saudara/i untuk hadir dalam pernikahan kami
         </p>
-        <div className="relative inline-block">
+        <div className="relative inline-block an">
           <img
             alt="Wedding couple in traditional attire"
             className="rounded-full mx-auto mb-4"

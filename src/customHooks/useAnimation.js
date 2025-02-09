@@ -1,7 +1,6 @@
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import anime from "animejs";
 
 // Registrasi plugin ScrollTrigger
 gsap.registerPlugin(ScrollTrigger);
@@ -13,8 +12,8 @@ export const useAnimation = (elementContainer, elementTarget, position) => {
             gsap.from(`${elementTarget}`, {
                 y: 50,
                 opacity: 0,
-                stagger: 0.5,
-                duration: 0.5,
+                stagger: 1,
+                duration: 1,
                 scrollTrigger: {
                     trigger: elementContainer.current,
                     start: position.start,

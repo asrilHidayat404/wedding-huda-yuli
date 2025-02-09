@@ -15,14 +15,14 @@ const Information = () => {
           gsap.from(".item", {
             y: 50,
             opacity: 0,
-            stagger: 1, // Waktu jeda antar elemen
-            duration: 0.6,
+            stagger: 0.5, // Waktu jeda antar elemen
+            duration: 1,
             scrollTrigger: {
               trigger: container.current, // Section yang dijadikan acuan
-              start: "top 80%", // Animasi dimulai saat 80% dari elemen masuk viewport
+              start: "top 60%", // Animasi dimulai saat 80% dari elemen masuk viewport
               end: "bottom 10%", // Animasi berakhir saat bagian bawah elemen 50% terlihat
               toggleActions: "play none none reverse",
-              scrub: false, // Tidak smooth mengikuti scroll
+              // scrub: true, // Tidak smooth mengikuti scroll
             },
           });
         });
