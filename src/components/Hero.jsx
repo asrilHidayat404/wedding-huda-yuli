@@ -26,7 +26,7 @@ const Hero = () => {
           <h1 className="text-5xl md:text-6xl font-bold text-yellow-300  tangerine-bold">
             Yuliana S.Ag
           </h1>
-          <p className="text-lg my-8">RABU, 17 FEBRUARI 2025</p>
+          <p className="text-lg my-8">Senin, 17 FEBRUARI 2025</p>
           <CountdownTimer deadline={"Februari, 17, 2025"} specificHour={8} />
           
           <br />
