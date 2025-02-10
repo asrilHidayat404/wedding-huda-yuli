@@ -56,7 +56,7 @@ const Information = () => {
             <h2 className="text-xl font-semibold bodoni-moda-text">
               Akad Nikah
             </h2>
-            <p>Rabu, 17 Februari 2025</p>
+            <p>Senin, 17 Februari 2025</p>
             <p>Pukul 07.30 WIB</p>
           </div>
           <hr className="my-4 border-gray-400" />
@@ -82,7 +82,7 @@ const Information = () => {
           />
           <div className="space-y-3 mt-3">
             <h2 className="text-xl font-semibold bodoni-moda-text">Resepsi</h2>
-            <p>Rabu, 17 Februari 2025</p>
+            <p>Senin, 17 Februari 2025</p>
             <p>Pukul 14.00 WIB s/d selesai</p>
           </div>
           <hr className="my-4 border-gray-400" />

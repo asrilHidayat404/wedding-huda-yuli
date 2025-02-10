@@ -33,7 +33,7 @@ const Hero = () => {
           <br />
           <br />
           <a
-            href="https://www.google.com/calendar/render?action=TEMPLATE&text=The+Wedding+of+Huda+%26+Yuli&details=The+Wedding+of+Huda+%26+Yuli%3Cbr%3EWednesday%2C+17+Februari+2025+Pukul+07%3A30%3Cbr%3EKediaman+Mempelai+Wanita%0D%0APaterongan%2C+Lenteng%0D%0ASumenep&dates=20250217T073000&location=https://maps.app.goo.gl/wKUJ9DLp4CRDrMKF8"
+            href="https://www.google.com/calendar/render?action=TEMPLATE&text=The+Wedding+of+Huda+%26+Yuli&details=The+Wedding+of+Huda+%26+Yuli%3Cbr%3ESenin%2C+17+Februari+2025+Pukul+07%3A30%3Cbr%3EKediaman+Mempelai+Wanita%0D%0APaterongan%2C+Lenteng%0D%0ASumenep&dates=20250217T073000&location=https://maps.app.goo.gl/wKUJ9DLp4CRDrMKF8"
             target="_blank"
             className="px-6 py-2 bg-gray-800 text-white rounded-full hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-opacity-50 mt-20"
           >

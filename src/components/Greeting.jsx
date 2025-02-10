@@ -33,12 +33,12 @@ const Greeting = () => {
           <p className="text-lg font-bold mb-2 berkshire-swash-regular">
             Ahmad Saiful Huda
           </p>
-          <p className="text-sm mb-4">Putra BPK abd Rahman dan ibu ROBIYATUN</p>
+          <p className="text-sm mb-4">Putra Bpk Abd Rahman dan Ibu Robiyatun</p>
           <p className="text-2xl font-bold mb-4">&amp;</p>
           <p className="text-lg font-bold mb-2 berkshire-swash-regular">
             Yuliana S.Ag
           </p>
-          <p className="text-sm">Putri dari BPK SUDAHRI dan ibu Ida</p>
+          <p className="text-sm">Putri dari Bpk Sudahri dan Ibu Ida</p>
         </div>
       </div>
   )
